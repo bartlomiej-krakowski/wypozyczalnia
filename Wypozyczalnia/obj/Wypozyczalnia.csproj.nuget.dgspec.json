@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {}
+    "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {}
   },
   "projects": {
-    "/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {
+    "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+        "projectUniqueName": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
         "projectName": "Wypozyczalnia",
-        "projectPath": "/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+        "projectPath": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
         "packagesPath": "/Users/bartek/.nuget/packages/",
-        "outputPath": "/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/",
+        "outputPath": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
