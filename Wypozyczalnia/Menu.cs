@@ -5,7 +5,7 @@ namespace Wypozyczalnia
 {
     public class Menu
     {
-        enum Admin {dodaj_samochod = 1, usuń_samochód, lista_aut, dodaj_klienta, usuń_klienta, lista_pracowników, dodaj_wypożyczenie, anuluj_wypożyczenie, zmodyfikuj_wypozyczenie, dodaj_pracownika, usuń_pracownika, licencja_programu, statystyka, wyloguj };
+        enum Admin { dodaj_samochód = 1, usuń_samochód, lista_aut, dodaj_klienta, usuń_klienta, lista_pracowników, dodaj_wypożyczenie, anuluj_wypożyczenie, zmodyfikuj_wypozyczenie, dodaj_pracownika, usuń_pracownika, licencja_programu, statystyka, wyloguj };
         enum User { dodaj_klienta = 1, dodaj_samochód, lista_aut, dodaj_wypozyczenie, anuluj_wypozyczenie, zmodyfikuj_wypożyczenie, wyloguj };
 
         public void menu()
@@ -33,9 +33,9 @@ namespace Wypozyczalnia
 
             switch (start)
             {
-                case Admin.dodaj_samochod:
+                case Admin.dodaj_samochód:
                     break;
-                case Admin.usuń_samochód:
+                case Admin.usuń_samochód:
                     break;
                 case Admin.lista_aut:
                     break;
