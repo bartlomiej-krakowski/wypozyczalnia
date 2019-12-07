@@ -1,0 +1,10 @@
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia.deps.json
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia.runtimeconfig.json
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia.runtimeconfig.dev.json
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia.dll
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/bin/Release/netcoreapp3.0/Wypozyczalnia.pdb
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Release/netcoreapp3.0/Wypozyczalnia.AssemblyInfoInputs.cache
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Release/netcoreapp3.0/Wypozyczalnia.AssemblyInfo.cs
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Release/netcoreapp3.0/Wypozyczalnia.dll
+/Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Release/netcoreapp3.0/Wypozyczalnia.pdb
