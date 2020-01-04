@@ -9,9 +9,9 @@ namespace Wypozyczalnia
             int adam1 = 1;
             int bartek2 = 2;
             Console.WriteLine("*1");
-            Console.WriteLine("Podaj login: ");
+            Console.WriteLine("Podaj login uzytkownika: ");
             string login = Console.ReadLine();
-            Console.WriteLine("Podaj hasło: ");
+            Console.WriteLine("Podaj hasło uzytkownika: ");
             string haslo = Console.ReadLine();
             //zapisujemy logi i hasło do pliku xml
             if (login == "admin" && haslo == "admin")
