@@ -9,3 +9,5 @@
 /Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Debug/netcoreapp3.0/Wypozyczalnia.AssemblyInfo.cs
 /Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Debug/netcoreapp3.0/Wypozyczalnia.dll
 /Users/bartek/Projects/Wypozyczalnia/Wypozyczalnia/obj/Debug/netcoreapp3.0/Wypozyczalnia.pdb
+/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/obj/Debug/netcoreapp3.0/Wypozyczalnia.dll
+/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/obj/Debug/netcoreapp3.0/Wypozyczalnia.pdb

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wypozyczalnia_logowanie
+
+namespace Wypozyczalnia
 {
     class logowanie
     {
@@ -29,14 +31,24 @@ namespace wypozyczalnia_logowanie
 
             set
             {
-                if (value != null)
+                bool k = true;
+                while (k)
                 {
-                    login = value;
+                    value = Console.ReadLine();
+
+                    if (string.IsNullOrEmpty(value))
+                    {
+                        Console.WriteLine("Bład podano pusty ciąg znaków");
+
+
+                    }
+                    if (!string.IsNullOrEmpty(value))
+                    {
+                        login = value;
+                        k = false;
+                    }
                 }
-                else
-                {
-                    Console.WriteLine("Bład podano pusty ciąg znaków");
-                }
+
 
             }
         }
@@ -45,15 +57,13 @@ namespace wypozyczalnia_logowanie
         public void log()
         {
             Console.WriteLine("Podaj login: ");
-            Login = Console.ReadLine();
+            Login = null;
 
-
-            Console.WriteLine("Podaj hasło: ");
 
             securePwd = new SecureString();
             ConsoleKeyInfo key;
 
-            Console.Write("Enter password: ");
+            Console.Write("Podaj hasło: ");
             do
             {
                 key = Console.ReadKey(true);
@@ -69,9 +79,14 @@ namespace wypozyczalnia_logowanie
             } while (key.Key != ConsoleKey.Enter);
             Console.WriteLine();
 
+
+
             try
             {
-                Process.Start("Notepad.exe", "MyUser", securePwd, "MYDOMAIN");
+                if (Marshal.PtrToStringUni(Marshal.SecureStringToGlobalAllocUnicode(securePwd)) == "abs")
+                {
+                    Console.WriteLine("haslo jest prawidłowe");
+                }
             }
             catch (Win32Exception e)
             {
@@ -81,9 +96,7 @@ namespace wypozyczalnia_logowanie
             {
                 securePwd.Dispose();
             }
-
-
-
         }
     }
 }
+
