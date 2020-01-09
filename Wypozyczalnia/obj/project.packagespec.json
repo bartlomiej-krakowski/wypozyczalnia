@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/wojciech/git@github.com:bartlomiej-krakowski/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+    "projectName": "Wypozyczalnia",
+    "projectPath": "/home/wojciech/git@github.com:bartlomiej-krakowski/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+    "outputPath": "/home/wojciech/git@github.com:bartlomiej-krakowski/wypozyczalnia/Wypozyczalnia/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "unsupported"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "unsupported": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "unsupported": {}
+  }
+}
