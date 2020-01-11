@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {}
+    "/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {}
   },
   "projects": {
-    "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {
+    "/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+        "projectUniqueName": "/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
         "projectName": "Wypozyczalnia",
-        "projectPath": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
-        "packagesPath": "/Users/bartek/.nuget/packages/",
-        "outputPath": "/Users/bartek/Projects/wypozyczalnia/Wypozyczalnia/obj/",
+        "projectPath": "/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/Wypozyczalnia.csproj",
+        "packagesPath": "/Users/cyprees/.nuget/packages/",
+        "outputPath": "/Users/cyprees/Codes/wypozyczalnia/Wypozyczalnia/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/bartek/.config/NuGet/NuGet.Config"
+          "/Users/cyprees/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -53,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }

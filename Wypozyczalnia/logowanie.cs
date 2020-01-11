@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Linq;
-using System.Runtime.InteropServices;
 using System.Security;
-using System.Text;
-using System.Threading.Tasks;
 
-
-namespace Wypozyczalnia
+namespace ClassLibrary1
 {
     class logowanie
     {
@@ -31,24 +25,14 @@ namespace Wypozyczalnia
 
             set
             {
-                bool k = true;
-                while (k)
+                if (value != null)
                 {
-                    value = Console.ReadLine();
-
-                    if (string.IsNullOrEmpty(value))
-                    {
-                        Console.WriteLine("Bład podano pusty ciąg znaków");
-
-
-                    }
-                    if (!string.IsNullOrEmpty(value))
-                    {
-                        login = value;
-                        k = false;
-                    }
+                    login = value;
                 }
-
+                else
+                {
+                    Console.WriteLine("Bład podano pusty ciąg znaków");
+                }
 
             }
         }
@@ -57,13 +41,15 @@ namespace Wypozyczalnia
         public void log()
         {
             Console.WriteLine("Podaj login: ");
-            Login = null;
+            Login = Console.ReadLine();
 
+
+            Console.WriteLine("Podaj hasło: ");
 
             securePwd = new SecureString();
             ConsoleKeyInfo key;
 
-            Console.Write("Podaj hasło: ");
+            Console.Write("Enter password: ");
             do
             {
                 key = Console.ReadKey(true);
@@ -79,14 +65,9 @@ namespace Wypozyczalnia
             } while (key.Key != ConsoleKey.Enter);
             Console.WriteLine();
 
-
-
             try
             {
-                if (Marshal.PtrToStringUni(Marshal.SecureStringToGlobalAllocUnicode(securePwd)) == "abs")
-                {
-                    Console.WriteLine("haslo jest prawidłowe");
-                }
+                Process.Start("Notepad.exe", "MyUser", securePwd, "MYDOMAIN");
             }
             catch (Win32Exception e)
             {
@@ -96,7 +77,10 @@ namespace Wypozyczalnia
             {
                 securePwd.Dispose();
             }
+
+
+
         }
     }
-}
 
+}

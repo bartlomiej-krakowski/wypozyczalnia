@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wypozyczalnia
+namespace ClassLibrary1
 {
     class Program
     {
@@ -30,4 +30,5 @@ namespace Wypozyczalnia
 
         }
     }
+
 }

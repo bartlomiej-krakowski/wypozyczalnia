@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Text;
 
-namespace Wypozyczalnia
+namespace ClassLibrary1
 {
     public class Menu
     {
@@ -34,6 +33,8 @@ namespace Wypozyczalnia
             switch (start)
             {
                 case Admin.dodaj_samochód:
+                    add_car dodaj = new add_car();
+                    dodaj.AddCarList();
                     break;
                 case Admin.usuń_samochód:
                     break;
@@ -66,4 +67,5 @@ namespace Wypozyczalnia
             }
         }
     }
+
 }
