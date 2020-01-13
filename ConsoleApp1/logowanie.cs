@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
@@ -39,24 +39,10 @@ namespace ConsoleApp1
             while (t)
             {
                 Console.Clear();
-                Console.WriteLine("Exit - press 1");
-                int i;
-                int.TryParse(Console.ReadLine(), out i);
-                if (i == 1)
-                {
-                    t = false;
-                    break;
-                    
-                }
-
                 Console.WriteLine("Enter Login: ");
                 Login = Console.ReadLine();
-
-
                 Console.WriteLine("Enter Password: ");
                 
-              
-
                 securePwd = new SecureString();
                 ConsoleKeyInfo key;
                 do
