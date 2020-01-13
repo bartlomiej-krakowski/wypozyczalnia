@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
@@ -11,12 +11,10 @@ namespace ConsoleApp1
 
 
         XmlSerializer serializer = new XmlSerializer(typeof(licence));
+        licence time;
 
-        public void serialize(licence time)
+        public void serialize()
         {
-
-
-
             try
             {
                 using (TextWriter writer = new StreamWriter(@"./CARS.xml"))
@@ -28,9 +26,6 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(e.Message);
             }
-
-
-
         }
 
         public List<cars> deserialize()
@@ -60,18 +55,13 @@ namespace ConsoleApp1
     [XmlRoot(" Time ")]
     class licence
     {
-
-
         DateTime date = DateTime.Today;
         DateTime date1 = DateTime.Parse("17-01-2020");
-
         System.TimeSpan date4;
-
 
         [XmlAttribute(" Time ")]
 
         public TimeSpan Date4 { get => date4; set => date4 = value; }
-
         public void DisplayLicence()
         {
             XmlSerializer dateserializer = new XmlSerializer(typeof(DateTime));
@@ -86,7 +76,7 @@ namespace ConsoleApp1
 
             using (StreamReader odczytCzas = new StreamReader("czas.txt"))
             {
-                odczytCzas.ReadLineAsync(date3);
+                odczytCzas.ReadLineAsync();
             }
 
 
