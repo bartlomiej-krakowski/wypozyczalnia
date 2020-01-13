@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cars _x0020_Mark_x0020_="FORD" _x0020_Model_x0020_="MONDEO" _x0020_Yearproduction_x0020_="2010" _x0020_Course_x0020_="3165845" _x0020_Nr_vin_x0020_="SDA651AS62D1AS65D1AS65D1" _x0020_Nr_registration_x0020_="6AS51DSD65" _x0020_Loan_x0020_="false" />
+  <cars _x0020_Mark_x0020_="FORD" _x0020_Model_x0020_="MONDEO" _x0020_Yearproduction_x0020_="2010" _x0020_Course_x0020_="128" _x0020_Nr_vin_x0020_="QWEASDZXC12345678" _x0020_Nr_registration_x0020_="PCAS569" _x0020_Loan_x0020_="false" />
+  <cars _x0020_Mark_x0020_="MAZDA" _x0020_Model_x0020_="CX3" _x0020_Yearproduction_x0020_="2017" _x0020_Course_x0020_="28000" _x0020_Nr_vin_x0020_="J128AS698US36LA57" _x0020_Nr_registration_x0020_="PCT80065" _x0020_Loan_x0020_="false" />
+  <cars _x0020_Mark_x0020_="MAZ" _x0020_Model_x0020_="MAZDA" _x0020_Yearproduction_x0020_="2000" _x0020_Course_x0020_="950000" _x0020_Nr_vin_x0020_="654ASD123QWE985ZS" _x0020_Nr_registration_x0020_="" _x0020_Loan_x0020_="false" />
+</ArrayOfCars>
